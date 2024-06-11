@@ -9,7 +9,7 @@ export const docsElements = [
   "def boolean()",
   "def list()",
   "def tuple()",
-  "def sets()",
+  "def dict()",
   "",
 ];
 export const conversionElements = [
@@ -36,7 +36,7 @@ export const listElements = [
   "",
 ];
 export const setsElements = [
-  "sets -> słownik -> jest strukturą danych, podobną do listy, tylko z kilkoma różnicami.",
+  "dictionary -> słownik -> jest strukturą danych, podobną do listy, tylko z kilkoma różnicami.",
   "W słowniku zamiast indeksów, używa się kluczy.",
   'moj_slownik = {"klucz1":"wartość1","klucz2":"wartość2"}',
   'print(moj_slownik["klucz1"] --> wartość1',
